@@ -7,9 +7,7 @@ import (
 )
 
 func main() {
-	a := answers.RansomNote("a", "b")
-	b := answers.RansomNote("aa", "ab")
-	c := answers.RansomNote("aa", "aab")
+	a := answers.Jump([]int{2, 3, 1, 1, 4})
 
-	fmt.Printf("%t, %t, %t\n", a, b, c)
+	fmt.Printf("%d\n", a)
 }
