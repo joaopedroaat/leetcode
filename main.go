@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	answers.IsIsomorphicTestCase()
+	answers.WordPatternTestCase()
 }
