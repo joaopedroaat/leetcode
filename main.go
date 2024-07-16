@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	answers.WordPatternTestCase()
+	answers.IsAnagramTestCase()
 }
