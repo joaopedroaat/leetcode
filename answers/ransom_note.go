@@ -1,6 +1,6 @@
 package answers
 
-func RansomNote(ransomNote string, magazine string) bool {
+func canConstruct(ransomNote string, magazine string) bool {
 	// Magazine chars map
 	m1 := make(map[rune]int)
 	// Ransom note chars map
