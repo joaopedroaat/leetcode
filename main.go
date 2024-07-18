@@ -1,9 +1,7 @@
 package main
 
-import (
-	"joaopedroaat.me/leet-code/answers"
-)
+import "fmt"
 
 func main() {
-	answers.IsAnagramTestCase()
+	fmt.Println("Leet code problems!")
 }
