@@ -1,17 +1,10 @@
 package answers
 
 import (
-	"fmt"
 	"strings"
 )
 
-func WordPatternTestCase() {
-	res := WordPattern("abba", "dog cat cat fish")
-
-	fmt.Println(res)
-}
-
-func WordPattern(pattern string, s string) bool {
+func wordPattern(pattern string, s string) bool {
 	words := strings.Fields(s)
 
 	if len(words) != len(pattern) {
