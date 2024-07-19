@@ -1,13 +1,6 @@
 package answers
 
-import "fmt"
-
-func IsIsomorphicTestCase() {
-	res := IsIsomorphic("egg", "add")
-	fmt.Println(res)
-}
-
-func IsIsomorphic(s string, t string) bool {
+func isIsomorphic(s string, t string) bool {
 	m1, m2 := make(map[byte]byte), make(map[byte]byte)
 
 	for i := 0; i <= len(s)-1; i++ {
