@@ -1,13 +1,6 @@
 package answers
 
-import "fmt"
-
-func IsAnagramTestCase() {
-	res := IsAnagram("anagram", "nagaram")
-	fmt.Println(res)
-}
-
-func IsAnagram(s string, t string) bool {
+func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
 	}
