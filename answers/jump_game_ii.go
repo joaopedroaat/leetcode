@@ -1,6 +1,6 @@
 package answers
 
-func Jump(nums []int) int {
+func jump(nums []int) int {
 	l, r := 0, 0
 	steps := 0
 
