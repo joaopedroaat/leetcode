@@ -1,4 +1,4 @@
-module joaopedroaat.me/leet-code
+module joaopedroaat.me/leetcode
 
 go 1.21.7
 
